@@ -1,0 +1,33 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.nav {
+    background-color: #ECECEC;
+}
+
+.name {
+    color: #2196F3;
+}
+
+.name-nav {
+    color: #000000;;
+}
+
+.nav-link {
+    color: #212121
+}
+
+.nav-link:hover
+.nav-link:focus {
+    color: #2196F3;
+}
+
+.nav-contacts {
+    color: #757575;
+}
+
+.nav-contacts:hover
+.nav-contacts:focus {
+    color: #2196F3;
+}
