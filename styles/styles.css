@@ -1,8 +1,10 @@
 body {
     background-color: #FFFFFF;
+    width: 1600px;
 }
 
 .nav {
+    height: 80px;
     background-color: #ECECEC;
 }
 
@@ -31,3 +33,23 @@ body {
 .nav-contacts:focus {
     color: #2196F3;
 }
+
+.hero {
+    height: 600px;
+    background-color: #2F303A;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.hero-discription {
+    margin-top: 200px;
+}
+
+.hero-button {
+    height: 50px;
+    width: 200px;
+    background-color: #2196F3;
+    border-radius: 4px;
+    margin: 30px auto 200px auto;
+}
+
