@@ -1,7 +1,10 @@
 body {
     background-color: #FFFFFF;
     width: 1600px;
+    color: #212121;
 }
+
+/*Шапка*/
 
 .nav {
     height: 80px;
@@ -34,6 +37,9 @@ body {
     color: #2196F3;
 }
 
+
+/*Основная чать*/
+
 .hero {
     height: 600px;
     background-color: #2F303A;
@@ -49,15 +55,27 @@ body {
     height: 50px;
     width: 200px;
     background-color: #2196F3;
+    color: #FFFFFF;
     border-radius: 4px;
     margin: 30px auto 200px auto;
 }
 
+/*Наши достоинства*/
+
+.dignity-list-title {
+    color: #212121;
+}
+
+.dignity-list-description {
+    color: #757575;
+}
+
+
+/*Работы*/
 
 
 
-
-
+/*Команда*/
 
 .team {
     background-color: #F5F4FA; 
@@ -65,4 +83,8 @@ body {
 
 .team-member {
     display: inline;
+}
+
+.team-member-post {
+    color:#757575
 }
