@@ -21,6 +21,7 @@ body {
 
 .nav-link {
     color: #212121
+
 }
 
 .nav-link:hover
@@ -81,7 +82,7 @@ body {
     background-color: #F5F4FA; 
 }
 
-.team-member {
+.team-member li {
     display: inline-block;
 }
 
