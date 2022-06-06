@@ -53,7 +53,7 @@ body {
     color: var(--bg-main);
 }
 
-.hero_description {
+.hero-discription {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -74,12 +74,10 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    height: 50px;
-    width: 200px;
     background-color: var(--blue);
     color: var(--bg-main);
     border-radius: 4px;
-    margin: 30px auto 200px auto;
+    cursor: pointer;
 }
 
 /*----Наши достоинства----*/
