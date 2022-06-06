@@ -1,10 +1,17 @@
+:root {
+    --bg-main: #FFFFFF;
+    --bg-dark: #2F303A;
+}
+
+
+
 body {
-    background-color: #FFFFFF;
-    width: 1600px;
+    font-family: "Roboto", sans-serif;
+    background-color: var(--bg-main);
     color: #212121;
 }
 
-/*Шапка*/
+/*----Шапка----*/
 
 .nav {
     height: 80px;
@@ -39,7 +46,7 @@ body {
 }
 
 
-/*Основная чать*/
+/*----Основная чать----*/
 
 .hero {
     height: 600px;
@@ -61,7 +68,7 @@ body {
     margin: 30px auto 200px auto;
 }
 
-/*Наши достоинства*/
+/*----Наши достоинства----*/
 
 .dignity-list-title {
     color: #212121;
@@ -72,18 +79,17 @@ body {
 }
 
 
-/*Работы*/
+/*----Работы----*/
 
 
 
-/*Команда*/
+/*----Команда----*/
 
 .team {
     background-color: #F5F4FA; 
 }
 
-.team-member li {
-    display: inline-block;
+.team-member {
 }
 
 .team-member-post {
