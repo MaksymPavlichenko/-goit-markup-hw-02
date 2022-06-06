@@ -82,7 +82,7 @@ body {
 }
 
 .team-member {
-    display: inline;
+    display: inline-block;
 }
 
 .team-member-post {
