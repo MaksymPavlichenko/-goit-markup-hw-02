@@ -1,6 +1,11 @@
 :root {
     --bg-main: #FFFFFF;
     --bg-dark: #2F303A;
+    --bg-grey: #F5F4FA;
+    --dark-text: #212121;
+    --grey-text: #757575;
+    --black: #000000;
+    --blue: #2196F3;
 }
 
 
@@ -8,18 +13,13 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: var(--bg-main);
-    color: #212121;
+    color: var(--dark-text);
 }
 
 /*----Шапка----*/
 
-.nav {
-    height: 80px;
-    background-color: #ECECEC;
-}
-
 .name {
-    color: #2196F3;
+    color: var(--blue);
 }
 
 .name-nav {
@@ -49,21 +49,35 @@ body {
 /*----Основная чать----*/
 
 .hero {
-    height: 600px;
-    background-color: #2F303A;
-    color: #FFFFFF;
+    background-color: var(--bg-dark);
+    color: var(--bg-main);
+}
+
+.hero_description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     text-align: center;
 }
 
-.hero-discription {
-    margin-top: 200px;
-}
-
 .hero-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     height: 50px;
     width: 200px;
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--blue);
+    color: var(--bg-main);
     border-radius: 4px;
     margin: 30px auto 200px auto;
 }
