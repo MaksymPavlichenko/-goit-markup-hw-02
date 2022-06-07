@@ -31,6 +31,11 @@ body {
     color: var(--black);;
 }
 
+.nav-link-list,
+.nav-contacts-list {
+    list-style: none;
+}
+
 .nav-link-item {
     font-family: 'Roboto';
     font-style: normal;
