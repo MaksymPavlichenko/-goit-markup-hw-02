@@ -8,15 +8,15 @@
     --blue: #2196F3;
 }
 
-
-
 body {
     font-family: "Roboto", sans-serif;
     background-color: var(--bg-main);
     color: var(--dark-text);
 }
 
+
 /*----Шапка----*/
+
 
 .name {font-family: 'Raleway';
     font-style: normal;
@@ -61,7 +61,9 @@ body {
     color: var(--blue);
 }
 
+
 /*----Основная чать----*/
+
 
 .hero {
     background-color: var(--bg-dark);
@@ -95,7 +97,9 @@ body {
     cursor: pointer;
 }
 
+
 /*----Наши достоинства----*/
+
 
 .dignity-list-title {
     font-family: 'Roboto';
@@ -121,6 +125,7 @@ body {
 
 /*----Работы----*/
 
+
 .work-title {
     font-family: 'Roboto';
     font-style: normal;
@@ -134,6 +139,7 @@ body {
 
 
 /*----Команда----*/
+
 
 .team {
     background-color: var(--bg-grey) 
@@ -165,7 +171,9 @@ body {
     color: var(--grey-text)
 }
 
+
 /*----Футер----*/
+
 
 .footer {
     background-color: var(--bg-dark);
@@ -195,3 +203,50 @@ body {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+
+/*----Портфолио----*/
+
+
+.portfolio-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--dark-text);
+    background-color: var(--bg-grey);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--bg-main);
+    background-color: var(--blue);
+}
+
+.portfolio-list {
+    border: 1px;
+    border-color: #EEEEEE;
+}
+
+.portfolio-list-head {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--dark-text);
+}
+
+.portfolio-list-info {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--grey-text);
+    }
