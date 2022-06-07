@@ -121,17 +121,46 @@ body {
 
 /*----Работы----*/
 
+.work-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--dark-text);
+}
 
 
 /*----Команда----*/
 
 .team {
-    background-color: #F5F4FA; 
+    background-color: var(--bg-grey) 
 }
 
-.team-member {
+.team-member-discription {
+    background-color: var(--bg-main);
+}
+
+.team-member-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--dark-text);
 }
 
 .team-member-post {
-    color:#757575
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--grey-text)
 }
