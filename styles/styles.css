@@ -33,7 +33,7 @@ body {
 
 .nav-link-list,
 .nav-contacts-list {
-    list-style: none;
+    display: inline;;
 }
 
 .nav-link-item {
