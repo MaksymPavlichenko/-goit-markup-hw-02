@@ -32,8 +32,8 @@ body {
 }
 
 .nav-link-list,
-.nav-contacts-list {
-    display: inline;;
+.nav-contacts {
+    display: inline;
 }
 
 .nav-link-item {
