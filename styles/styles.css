@@ -41,7 +41,7 @@ body {
     color: var(--dark-text);
 }
 
-.nav-link-item:hover
+.nav-link-item:hover,
 .nav-link-item:focus {
     color: var(--blue);
 }
@@ -56,7 +56,7 @@ body {
     color: var(--grey-text);
 }
 
-.nav-contacts-item:hover
+.nav-contacts-item:hover,
 .nav-contacts-item:focus {
     color: var(--blue);
 }
