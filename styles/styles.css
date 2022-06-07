@@ -28,7 +28,7 @@ body {
 }
 
 .name-nav {
-    color: #000000;;
+    color: var(--black);;
 }
 
 .nav-link-item {
@@ -38,23 +38,28 @@ body {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121
+    color: var(--dark-text);
 }
 
 .nav-link-item:hover
 .nav-link-item:focus {
-    color: #2196F3;
+    color: var(--blue);
 }
 
-.nav-contacts {
-    color: #757575;
+.nav-contacts-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--grey-text);
 }
 
-.nav-contacts:hover
-.nav-contacts:focus {
-    color: #2196F3;
+.nav-contacts-item:hover
+.nav-contacts-item:focus {
+    color: var(--blue);
 }
-
 
 /*----Основная чать----*/
 
@@ -93,11 +98,24 @@ body {
 /*----Наши достоинства----*/
 
 .dignity-list-title {
-    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--dark-text);
 }
 
 .dignity-list-description {
-    color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--grey-text);
 }
 
 
