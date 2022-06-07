@@ -31,11 +31,6 @@ body {
     color: var(--black);;
 }
 
-.nav-link-list,
-.nav-contacts {
-    display: inline;
-}
-
 .nav-link-item {
     font-family: 'Roboto';
     font-style: normal;
@@ -168,4 +163,35 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--grey-text)
+}
+
+/*----Футер----*/
+
+.footer {
+    background-color: var(--bg-dark);
+}
+
+.name-footer {
+    color: var(--bg-main);
+}
+
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--bg-main);
+}
+
+.mail,
+.phone {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
