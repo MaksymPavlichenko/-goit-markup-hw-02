@@ -165,12 +165,12 @@ a{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-main);
-
+}
 
 /*----Футер----*/
 
 
-.footer {
+.footer{
     background-color: var(--bg-dark);
 }
 
