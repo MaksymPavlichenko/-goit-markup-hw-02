@@ -16,11 +16,11 @@ body {
     color: var(--dark-text);
 }
 
-ul {
+.list {
     list-style: none;
 }
 
-a{
+.link {
     text-decoration: none;
 }
 
