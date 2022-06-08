@@ -6,6 +6,7 @@
     --text-main: #757575;
     --dark-logo: #000000;
     --selection-color: #2196F3;
+    --selection-color-dark: #188CE8;
 }
 
 body {
@@ -15,11 +16,20 @@ body {
     color: var(--dark-text);
 }
 
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
 
 /*----Шапка----*/
 
 
 .logo {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -40,6 +50,10 @@ body {
 
 .nav-link-item:hover,
 .nav-link-item:focus {
+    color: var(--selection-color);
+}
+
+.curent {
     color: var(--selection-color);
 }
 
@@ -74,7 +88,7 @@ body {
 }
 
 .hero-button {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -84,6 +98,11 @@ body {
     color: var(--bg-main);
     border-radius: 4px;
     cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--selection-color-dark);
 }
 
 
@@ -179,7 +198,7 @@ body {
 
 
 .portfolio-button {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -194,6 +213,11 @@ body {
 .portfolio-button:focus {
     color: var(--bg-main);
     background-color: var(--selection-color);
+}
+
+.button-curent {
+    background-color: var(--selection-color);
+    color: var(--bg-main);
 }
 
 .portfolio-list {
